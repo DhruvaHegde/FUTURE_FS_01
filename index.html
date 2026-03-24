@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark light" />
+  <title>Dhruva Hegde | Full Stack Developer</title>
+  <meta name="description" content="Portfolio of Dhruva Hegde – Full Stack Developer, C Programmer, and Java Enthusiast currently pursuing Engineering at SDMIT Ujire (VTU)." />
+  <meta name="keywords" content="Dhruva Hegde, Full Stack Developer, Portfolio, SDMIT, VTU, Java, Web Development" />
+  <meta name="author" content="Dhruva Hegde" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dhruva Hegde | Full Stack Developer" />
+  <meta property="og:description" content="Full Stack Developer | C Programmer | Java Enthusiast — Explore my projects, skills, and achievements." />
+  <meta property="og:type" content="website" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo"><span class="logo-bracket">&lt;</span>DH<span class="logo-bracket">/&gt;</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#certificates" class="nav-link">Certificates</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light mode" aria-pressed="false">
+          <i class="fas fa-moon theme-icon theme-icon-dark"></i>
+          <i class="fas fa-sun theme-icon theme-icon-light"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span>Open to Opportunities</span>
+        </div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Dhruva Hegde</span>
+        </h1>
+        <p class="hero-subtitle typewriter" id="typewriter"></p>
+        <p class="hero-desc">
+          I build responsive web applications and love solving real-world problems through technology.
+          Currently pursuing my engineering at <strong>SDMIT Ujire (VTU)</strong>, graduating in 2027.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary" id="hero-view-projects">
+            <i class="fas fa-rocket"></i> View Projects
+          </a>
+          <a href="#contact" class="btn btn-secondary" id="hero-contact">
+            <i class="fas fa-paper-plane"></i> Contact Me
+          </a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/DhruvaHegde" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon" id="hero-github">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/dhruva-hegde-1143a1325" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon" id="hero-linkedin">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="mailto:dhruvahegde011@gmail.com" aria-label="Email" class="social-icon" id="hero-email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero-avatar">
+        <div class="avatar-ring">
+          <div class="avatar-inner">
+            <img src="profile.jpg" alt="Dhruva Hegde" class="avatar-photo" />
+          </div>
+        </div>
+        <div class="floating-badge badge-top">
+          <i class="fas fa-code"></i> Full Stack Dev
+        </div>
+        <div class="floating-badge badge-bottom">
+          <i class="fas fa-graduation-cap"></i> VTU 2027
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll Down</span>
+      <div class="scroll-arrow">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Who I Am</span>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-image-wrap">
+          <div class="about-image-card">
+            <img src="profile.jpg" alt="Dhruva Hegde" class="about-photo" />
+            <div class="about-image-border"></div>
+          </div>
+          <div class="about-stat-card stat-1">
+            <span class="stat-number">2+</span>
+            <span class="stat-label">Years Coding</span>
+          </div>
+          <div class="about-stat-card stat-2">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">Technologies</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <p class="about-bio">
+            I am a passionate <strong>Computer Science student</strong> at SDMIT Ujire under VTU, with a strong interest in full stack development and problem-solving.
+          </p>
+          <p class="about-bio">
+            I have experience in <strong>C programming</strong>, <strong>Java</strong>, and <strong>web development</strong> technologies. I enjoy building projects, participating in hackathons, and continuously learning new technologies.
+          </p>
+          <p class="about-bio">
+            I aim to become a skilled full stack developer and contribute to impactful real-world applications.
+          </p>
+          <div class="about-details">
+            <div class="detail-item">
+              <i class="fas fa-graduation-cap"></i>
+              <div>
+                <span class="detail-label">Education</span>
+                <span class="detail-value">B.E. Computer Science, SDMIT Ujire (VTU)</span>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-calendar-alt"></i>
+              <div>
+                <span class="detail-label">Graduating</span>
+                <span class="detail-value">2027</span>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <span class="detail-label">Location</span>
+                <span class="detail-value">Ujire, Karnataka, India</span>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <span class="detail-label">Email</span>
+                <span class="detail-value">dhruvahegde011@gmail.com</span>
+              </div>
+            </div>
+          </div>
+          <a href="mailto:dhruvahegde011@gmail.com" class="btn btn-primary" id="about-hire-btn">
+            <i class="fas fa-handshake"></i> Hire Me
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS SECTION ===== -->
+  <section id="skills" class="skills section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">What I Know</span>
+        <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-card" data-skill="C Programming">
+          <div class="skill-icon-wrap">
+            <i class="fas fa-terminal skill-icon"></i>
+          </div>
+          <h3 class="skill-name">C Programming</h3>
+          <p class="skill-desc">Systems programming, data structures, algorithms, and memory management.</p>
+          <div class="skill-tags">
+            <span class="tag">Data Structures</span>
+            <span class="tag">Algorithms</span>
+            <span class="tag">Pointers</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-skill="Java">
+          <div class="skill-icon-wrap">
+            <i class="fab fa-java skill-icon"></i>
+          </div>
+          <h3 class="skill-name">Java</h3>
+          <p class="skill-desc">Object-oriented programming, core Java concepts, and application development.</p>
+          <div class="skill-tags">
+            <span class="tag">OOP</span>
+            <span class="tag">Collections</span>
+            <span class="tag">Exception Handling</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-skill="HTML/CSS">
+          <div class="skill-icon-wrap">
+            <i class="fab fa-html5 skill-icon"></i>
+          </div>
+          <h3 class="skill-name">HTML & CSS</h3>
+          <p class="skill-desc">Semantic markup, responsive layouts, flexbox, grid, and modern CSS animations.</p>
+          <div class="skill-tags">
+            <span class="tag">Semantic HTML</span>
+            <span class="tag">Flexbox</span>
+            <span class="tag">CSS Grid</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-skill="JavaScript">
+          <div class="skill-icon-wrap">
+            <i class="fab fa-js-square skill-icon"></i>
+          </div>
+          <h3 class="skill-name">JavaScript</h3>
+          <p class="skill-desc">DOM manipulation, ES6+ features, async programming, and interactive UIs.</p>
+          <div class="skill-tags">
+            <span class="tag">ES6+</span>
+            <span class="tag">DOM</span>
+            <span class="tag">Async/Await</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-skill="React">
+          <div class="skill-icon-wrap">
+            <i class="fab fa-react skill-icon"></i>
+          </div>
+          <h3 class="skill-name">React.js</h3>
+          <p class="skill-desc">Component-based UI development with hooks, state management, and routing.</p>
+          <div class="skill-tags">
+            <span class="tag">Hooks</span>
+            <span class="tag">Components</span>
+            <span class="tag">JSX</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-skill="Full Stack">
+          <div class="skill-icon-wrap">
+            <i class="fas fa-layer-group skill-icon"></i>
+          </div>
+          <h3 class="skill-name">Full Stack Dev</h3>
+          <p class="skill-desc">End-to-end web application development from UI design to backend APIs.</p>
+          <div class="skill-tags">
+            <span class="tag">Frontend</span>
+            <span class="tag">Backend</span>
+            <span class="tag">REST APIs</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-skill="Git">
+          <div class="skill-icon-wrap">
+            <i class="fab fa-git-alt skill-icon"></i>
+          </div>
+          <h3 class="skill-name">Git & GitHub</h3>
+          <p class="skill-desc">Version control, collaboration, branching strategies, and open-source contribution.</p>
+          <div class="skill-tags">
+            <span class="tag">Version Control</span>
+            <span class="tag">Branching</span>
+            <span class="tag">Collaboration</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-skill="Problem Solving">
+          <div class="skill-icon-wrap">
+            <i class="fas fa-puzzle-piece skill-icon"></i>
+          </div>
+          <h3 class="skill-name">Problem Solving</h3>
+          <p class="skill-desc">Analytical thinking, competitive programming, and hackathon experience.</p>
+          <div class="skill-tags">
+            <span class="tag">Logic</span>
+            <span class="tag">Hackathons</span>
+            <span class="tag">DSA</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ACHIEVEMENTS SECTION ===== -->
+  <section id="achievements" class="achievements section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Milestones</span>
+        <h2 class="section-title">My <span class="gradient-text">Achievements</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="achievements-grid">
+
+        <div class="achievement-card">
+          <div class="achievement-icon-wrap hackathon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="achievement-content">
+            <div class="achievement-badge">Hackathon</div>
+            <h3 class="achievement-title">HACKYUGMA – 24-Hour Hackathon</h3>
+            <p class="achievement-org">
+              <i class="fas fa-university"></i> YUGMA Techfest 1.0 · JNNCE, Shivamogga
+            </p>
+            <p class="achievement-desc">
+              Participated in an intensive 24-hour hackathon as part of the YUGMA Techfest 1.0, collaborating with a team to design and develop a solution under real-world constraints.
+            </p>
+            <div class="achievement-tags">
+              <span class="tag tag-gold">Participation Certificate</span>
+              <span class="tag">Team Event</span>
+              <span class="tag">24 Hours</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-icon-wrap nptel">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <div class="achievement-content">
+            <div class="achievement-badge">Certification</div>
+            <h3 class="achievement-title">Cyber Security and Privacy – NPTEL</h3>
+            <p class="achievement-org">
+              <i class="fas fa-users"></i> National Programme on Technology Enhanced Learning (NPTEL)
+            </p>
+            <p class="achievement-desc">
+              Completed the 12-week NPTEL course on Cyber Security and Privacy (Jul–Oct 2025), covering network security, cryptography, privacy frameworks, and threat mitigation strategies.
+            </p>
+            <div class="achievement-tags">
+              <span class="tag tag-blue">Score: 54%</span>
+              <span class="tag">12 Weeks</span>
+              <span class="tag">Jul–Oct 2025</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-icon-wrap intern">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <div class="achievement-content">
+            <div class="achievement-badge">Internship</div>
+            <h3 class="achievement-title">Full Stack Development Internship</h3>
+            <p class="achievement-org">
+              <i class="fas fa-building"></i> Future Interns Program
+            </p>
+            <p class="achievement-desc">
+              Actively completing real-world full stack development tasks as part of the Future Interns program, building professional-grade projects and sharpening industry-relevant skills.
+            </p>
+            <div class="achievement-tags">
+              <span class="tag tag-green">In Progress</span>
+              <span class="tag">Full Stack</span>
+              <span class="tag">Real Projects</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATES SECTION ===== -->
+  <section id="certificates" class="certificates section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Verified Learning</span>
+        <h2 class="section-title">My <span class="gradient-text">Certificates</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="certificates-grid">
+
+        <article class="certificate-card" data-certificate="python">
+          <div class="certificate-glow python"></div>
+          <div class="certificate-frame">
+            <div class="certificate-image-wrap">
+              <img src="Certificates/python.jpg.png" alt="Python certificate" class="certificate-image" />
+            </div>
+            <div class="certificate-topline">
+              <span class="certificate-provider">Udemy</span>
+              <span class="certificate-year">2024</span>
+            </div>
+            <h3 class="certificate-name">The Complete Python Bootcamp From Zero to Hero in Python</h3>
+            <p class="certificate-meta">Instructor: Jose Portilla, Pierian Training</p>
+            <p class="certificate-meta">Completed on August 21, 2024 • 22 total hours</p>
+            <div class="certificate-tags">
+              <span class="tag">Python</span>
+              <span class="tag tag-blue">Udemy</span>
+              <span class="tag">22 Hours</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="certificate-card" data-certificate="cyber">
+          <div class="certificate-glow cyber"></div>
+          <div class="certificate-frame">
+            <div class="certificate-image-wrap">
+              <img src="Certificates/Cybersecurity.jpg.png" alt="Cyber Security and Privacy certificate" class="certificate-image" />
+            </div>
+            <div class="certificate-topline">
+              <span class="certificate-provider">NPTEL</span>
+              <span class="certificate-year">2025</span>
+            </div>
+            <h3 class="certificate-name">Cyber Security and Privacy</h3>
+            <p class="certificate-meta">National Programme on Technology Enhanced Learning</p>
+            <p class="certificate-meta">Jul-Oct 2025 • Consolidated score: 54%</p>
+            <div class="certificate-tags">
+              <span class="tag">Cyber Security</span>
+              <span class="tag tag-blue">NPTEL</span>
+              <span class="tag">12 Weeks</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="certificate-card" data-certificate="c">
+          <div class="certificate-glow cprog"></div>
+          <div class="certificate-frame">
+            <div class="certificate-image-wrap">
+              <img src="Certificates/C programming.jpg.png" alt="Programming in C certificate" class="certificate-image" />
+            </div>
+            <div class="certificate-topline">
+              <span class="certificate-provider">Infosys Springboard</span>
+              <span class="certificate-year">2024</span>
+            </div>
+            <h3 class="certificate-name">Programming in C</h3>
+            <p class="certificate-meta">Infosys Course Completion Certificate</p>
+            <p class="certificate-meta">Completed on September 16, 2024</p>
+            <div class="certificate-tags">
+              <span class="tag">C Programming</span>
+              <span class="tag tag-blue">Infosys</span>
+              <span class="tag">Core Concepts</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="certificate-card" data-certificate="hackathon">
+          <div class="certificate-glow python"></div>
+          <div class="certificate-frame">
+            <div class="certificate-image-wrap">
+              <img src="Certificates/Hackathon.jpg.png" alt="Hackathon participation certificate" class="certificate-image" />
+            </div>
+            <div class="certificate-topline">
+              <span class="certificate-provider">YUGMA Techfest</span>
+              <span class="certificate-year">2025</span>
+            </div>
+            <h3 class="certificate-name">24 Hour HACKYUGMA Hackathon Participation</h3>
+            <p class="certificate-meta">JNNCE Shivamogga • IEEE Computer Society Student Chapter</p>
+            <p class="certificate-meta">Participated from August 21 to August 22, 2025</p>
+            <div class="certificate-tags">
+              <span class="tag">Hackathon</span>
+              <span class="tag tag-gold">Participation</span>
+              <span class="tag">24 Hours</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section id="projects" class="projects section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">What I've Built</span>
+        <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-header">
+            <div class="project-icon-wrap">
+              <i class="fas fa-user-tie"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/DhruvaHegde" target="_blank" rel="noopener" aria-label="GitHub" id="proj-portfolio-github" class="project-link">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-badge">Featured</div>
+          <h3 class="project-title">Portfolio Website</h3>
+          <p class="project-desc">
+            A professional portfolio website built to showcase skills, projects, and achievements. Features smooth animations, responsive design, and a modern dark UI.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon-wrap">
+              <i class="fas fa-tasks"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/DhruvaHegde" target="_blank" rel="noopener" aria-label="GitHub" id="proj-intern-github" class="project-link">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-badge coming">In Progress</div>
+          <h3 class="project-title">Future Intern Tasks</h3>
+          <p class="project-desc">
+            A collection of real-world full stack development projects built during the Future Interns internship program. Showcases end-to-end application development skills.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon-wrap">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/DhruvaHegde" target="_blank" rel="noopener" aria-label="GitHub" id="proj-cybersec-github" class="project-link">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-badge coming">Coming Soon</div>
+          <h3 class="project-title">Cybersecurity Research Project</h3>
+          <p class="project-desc">
+            A major academic project exploring AI &amp; blockchain-based cybersecurity solutions. Currently in the research and design phase as part of VTU curriculum.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">AI/ML</span>
+            <span class="tech-tag">Security</span>
+          </div>
+        </div>
+
+        <div class="project-card add-card" id="add-project-card">
+          <div class="add-icon">
+            <i class="fas fa-plus-circle"></i>
+          </div>
+          <p>More projects coming soon…</p>
+          <a href="https://github.com/DhruvaHegde" target="_blank" rel="noopener" class="btn btn-outline" id="view-github-btn">
+            <i class="fab fa-github"></i> View GitHub
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Let's Talk</span>
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-grid">
+
+        <div class="contact-info">
+          <p class="contact-intro">
+            I'm always open to discussing new opportunities, collaborations, or just a friendly chat about tech. Drop me a message!
+          </p>
+          <div class="contact-details">
+            <a href="mailto:dhruvahegde011@gmail.com" class="contact-item" id="contact-email">
+              <div class="contact-icon-wrap">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <span class="contact-label">Email</span>
+                <span class="contact-value">dhruvahegde011@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:+917349430747" class="contact-item" id="contact-phone">
+              <div class="contact-icon-wrap">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div>
+                <span class="contact-label">Phone</span>
+                <span class="contact-value">+91 7349430747</span>
+              </div>
+            </a>
+            <a href="https://github.com/DhruvaHegde" target="_blank" rel="noopener" class="contact-item" id="contact-github">
+              <div class="contact-icon-wrap">
+                <i class="fab fa-github"></i>
+              </div>
+              <div>
+                <span class="contact-label">GitHub</span>
+                <span class="contact-value">github.com/DhruvaHegde</span>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/dhruva-hegde-1143a1325" target="_blank" rel="noopener" class="contact-item" id="contact-linkedin">
+              <div class="contact-icon-wrap">
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+              <div>
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-value">dhruva-hegde-1143a1325</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="contact-name" class="form-label">Your Name</label>
+            <input type="text" id="contact-name" name="name" class="form-input" placeholder="John Doe" required />
+            <span class="form-error" id="name-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="contact-email-input" class="form-label">Email Address</label>
+            <input type="email" id="contact-email-input" name="email" class="form-input" placeholder="john@example.com" required />
+            <span class="form-error" id="email-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="contact-subject" class="form-label">Subject</label>
+            <input type="text" id="contact-subject" name="subject" class="form-input" placeholder="Project Collaboration" />
+          </div>
+          <div class="form-group">
+            <label for="contact-message" class="form-label">Message</label>
+            <textarea id="contact-message" name="message" class="form-input form-textarea" rows="5" placeholder="Tell me about your project or opportunity..." required></textarea>
+            <span class="form-error" id="message-error"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="form-submit-btn">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <div class="form-success" id="form-success" aria-live="polite">
+            <i class="fas fa-check-circle"></i> Message sent! I'll get back to you soon.
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-brand"><span class="logo-bracket">&lt;</span>DH<span class="logo-bracket">/&gt;</span></p>
+        <p class="footer-text">Designed &amp; Built by <strong>Dhruva Hegde</strong></p>
+        <div class="footer-socials">
+          <a href="https://github.com/DhruvaHegde" target="_blank" rel="noopener" aria-label="GitHub" id="footer-github"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/dhruva-hegde-1143a1325" target="_blank" rel="noopener" aria-label="LinkedIn" id="footer-linkedin"><i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:dhruvahegde011@gmail.com" aria-label="Email" id="footer-email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <p class="footer-copy">© 2025 Dhruva Hegde · Made with <i class="fas fa-heart" style="color:#f43f5e;"></i> and lots of caffeine</p>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
