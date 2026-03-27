@@ -2,6 +2,8 @@
 
 A professional, responsive portfolio website built with pure **HTML, CSS, and JavaScript** — no frameworks, no dependencies, just clean code.
 
+## 🌐 Live Demo : https://dhruvahegde.github.io/FUTURE_FS_01/
+
 ## 🌐 Live Preview
 
 Open `index.html` directly in your browser, or serve it locally:
