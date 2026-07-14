@@ -2,7 +2,7 @@
 
 A professional, responsive portfolio website built with pure **HTML, CSS, and JavaScript** — no frameworks, no dependencies, just clean code.
 
-## 🌐 Live Demo : https://dhruvahegde.github.io/Portfolio Website/
+## 🌐 Live Demo : https://dhruvahegde.github.io/Portfolio_Website/
 
 ## 🌐 Live Preview
 
